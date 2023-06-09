@@ -1,0 +1,238 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Css Variables */
+:root{
+    --navbar-height: 59px:
+}
+
+/* Navigation bar */
+/* #navbar {
+    display: flex;
+    align-items: center;
+} */
+/* Nav bar Logo and Styling */
+
+#logo{
+    margin: 34px 45px;
+}
+#logo img{
+    height: 96px;
+    margin: 3px 5px;
+}
+
+
+
+/* Nav bar list styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 90px;
+}
+
+#navbar ul {
+    display: flex; 
+    font-family: 'Bree Serif', serif;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+list-style: none;
+font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: aliceblue;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+    }
+#navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue;
+    }
+/* Home Section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 471px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('Cookingfood.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 560px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rgb(4, 26, 87);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    background: azure;
+    
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services .box p{
+     font-family: 'Bree Serif', serif;
+}
+#services{
+     
+}
+#services{
+     
+}
+#services{
+     
+}
+
+/* Clients Section */
+
+#client-section{
+/* height: 344px; */
+position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(Fireroll.jpg)no-repeat center center/cover;;
+    width: 100%;
+    height: 125%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 250px;
+}
+.client-item{
+    padding: 34px;
+}
+/* Contact Form Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(Contact.jpg)no-repeat center center/cover;
+    margin-top: 107px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    padding-top: 52px;
+    /* flex-direction: column; */
+   
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+ #contact-box form{
+    width: 40%; 
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+} 
+#contact-1{
+    padding-top: 105px;
+}
+/* Footer Section */
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px 25px;
+}
+footer a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+/* utility classed */
+.h-primary{
+    font-size:3.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+    /* padding-top: 105px; */
+}
+.h-secondary{
+    font-size:1.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(4, 77, 110);
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; 
+}
+.centerbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+
+}

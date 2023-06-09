@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating My First Responsive Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="phone.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="weblogo.png" alt="MyOnlineMeal.com" />
+      </div>
+      <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About Us</a></li>
+        <li class="item"><a href="#">Contact us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        laboriosam molestias ducimus maiores.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        laboriosam molestias ducimus maiores. Quae iste, sit corrupti.
+      </p>
+      <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="meat.png" alt="meats" />
+          <h2 class="h-secondary center">Enjoy Fresh Meat</h2>
+          <p class="center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            distinctio assumenda, corrupti, corporis quisquam qui iste
+            voluptates quos numquam, libero eius esse!
+          </p>
+        </div>
+        <div class="box">
+          <img src="salad.png" alt="salad" />
+          <h2 class="h-secondary center">Enjoy Fresh Salad</h2>
+          <p class="center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            distinctio assumenda, corrupti, corporis quisquam qui iste
+            voluptates quos numquam, libero eius esse!
+          </p>
+        </div>
+        <div class="box">
+          <img src="fish.png" alt="fish" />
+          <h2 class="h-secondary center">Enjoy Fresh Fish</h2>
+          <p class="center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            distinctio assumenda, corrupti, corporis quisquam qui iste
+            voluptates quos numquam, libero eius esse!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="logo (1).png" alt="Fitness Logo" />
+        </div>
+        <div class="client-item">
+          <img src="logo (2).png" alt="Fitness Logo" />
+        </div>
+        <div class="client-item">
+          <img src="logo (3).png" alt="Fitness Logo" />
+        </div>
+        <div class="client-item">
+          <img src="logo (4).png" alt="Fitness Logo" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="h-primary center" id="contact-1">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Phone">Phone Number</label>
+          <input
+            type="phone"
+            name="phone"
+            id="number"
+            placeholder="Enter Your Number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div class="centerbtn">
+        <button class="btn center">Submit</button>
+      </form>
+      </div>
+    </section>
+    <footer>
+      <div class="center">
+    Copyright &copy;<a href="https://desperatehub.com/"> DesperateHub</a> All rights reserved!
+    </div></footer>
+  </body>
+</html>
